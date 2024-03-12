@@ -1,0 +1,9 @@
+python-dotenv
+openai
+langchain
+langchain-openai
+langchain-mistralai
+sentence-transformers
+fastembed==0.2.2
+qdrant-client
+qdrant-client[fastembed]
