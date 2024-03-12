@@ -6,11 +6,11 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_mistralai.chat_models import ChatMistralAI
 from src.llm_api.prompts import VOCABULARY_EXTRACTOR_PROMPT_v3
-from langchain_core.prompts import ChatPromptTemplate
 from langchain.prompts import HumanMessagePromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage
-from langchain.output_parsers.json import SimpleJsonOutputParser
 from langchain_core.runnables import RunnablePassthrough
+from langchain.output_parsers.json import SimpleJsonOutputParser
 
 _ = load_dotenv('./environment/.env')
 
