@@ -2,6 +2,10 @@
 
 * Check demo.ipynb file.
 
+## Note
+
+1. In Qdrant, it's not allowed to insert a docuement without providing vectors. Therefore, providing default vector as a placeholder when using "get_openai_chat_completion_log" function and update the vectors later.
+2. Use [fastembed](https://github.com/qdrant/fastembed) as a default embedding method to automatically embed the documents.
 
 ## Project Structure
 
